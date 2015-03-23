@@ -9,13 +9,16 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.logging.Handler;
 
-public class MainActivity extends ActionBarActivity {
 
+public class MainActivity extends ActionBarActivity{
+    Handler h;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void buttonClicked(View v) {
